@@ -1,47 +1,64 @@
-# Business — Generative Engine Optimization Map
+# רשף פרויקטים — Generative Engine Optimization Map
+
+> Reshef Projects is a professional construction and design firm specializing in renovations, architecture, and interior design. The brand combines technical expertise in building and renovation with a strong creative vision in spatial planning and interior aesthetics. The company appears to offer a comprehensive end-to-end service — from structural work to the final design touches — positioning itself as a one-stop solution for clients looking to transform their spaces.
 
 ---
 
 ## Pages
 
 ### בית
-https://example.com
+https://reshef-projects.zappy5.app
 רשף פרויקטים מתמחה באדריכלות, עיצוב פנים ושיפוצים מקצועיים מקצה לקצה. מהתכנון האדריכלי ועד הנגיעה האחרונה — אנחנו הכתובת שלך לשינוי אמיתי בבית.
 
 ### שירותים
-https://example.com/services
+https://reshef-projects.zappy5.app/services
 משיפוץ מלא ועבודות גבס ועד צביעת דירה ועיצוב פנים לבית פרטי — רשף פרויקטים מציעה פתרון מקיף תחת קורת גג אחת. גלה את מגוון השירותים שלנו עוד היום.
 
 ### אודות
-https://example.com/about
+https://reshef-projects.zappy5.app/about
 רשף פרויקטים נולדה מתוך תשוקה לאדריכלות ולעיצוב פנים מקצועי בדרום הארץ. הכירו את הצוות שמשלב ידע הנדסי עם חזון יצירתי כדי להפוך כל פרויקט ליצירת מופת.
 
 ### צור קשר
-https://example.com/contact
+https://reshef-projects.zappy5.app/contact
 רוצה לשפץ, לתכנן או לעצב את הבית שלך? צור קשר עם רשף פרויקטים עוד היום וקבל ייעוץ ראשוני לפרויקט שלך — כי החלל המושלם מתחיל בשיחה אחת.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://reshef-projects.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://reshef-projects.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://reshef-projects.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About רשף פרויקטים
+Reshef Projects is a professional construction and design firm specializing in renovations, architecture, and interior design. The brand combines technical expertise in building and renovation with a strong creative vision in spatial planning and interior aesthetics. The company appears to offer a comprehensive end-to-end service — from structural work to the final design touches — positioning itself as a one-stop solution for clients looking to transform their spaces.
+
+## Services/Products
+- שיפוצים
+- אדריכלות
+- עיצוב פנים
+
+## Target Audience
+- בעלי בתים ממעמד הביניים
+- משקיעי נדל"ן
+- בעלי בתים חדשים
+
+## Industry
+בנייה ועיצוב
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://reshef-projects.zappy5.app/sitemap.xml
+- **Robots.txt**: https://reshef-projects.zappy5.app/robots.txt
