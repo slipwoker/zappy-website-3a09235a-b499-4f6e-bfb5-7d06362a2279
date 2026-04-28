@@ -343,7 +343,7 @@
     </svg>
   </button>
 
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="+972527077408" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
@@ -746,7 +746,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '+972527077408';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -849,7 +849,7 @@
             <path d="M10 8H3M7 5L4 8L7 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </a>
-        <a href="tel:[business_phone]" class="ccis-btn-ghost">
+        <a href="tel:+972527077408" class="ccis-btn-ghost">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
             <path d="M13.5 10.5C12.5 10.5 11.5 10.3 10.6 9.9C10.3 9.8 9.95 9.87 9.73 10.09L8.5 11.32C6.79 10.4 5.6 9.21 4.68 7.5L5.91 6.27C6.13 6.05 6.2 5.7 6.1 5.4C5.7 4.5 5.5 3.5 5.5 2.5C5.5 2.22 5.28 2 5 2H2.5C2.22 2 2 2.22 2 2.5C2 8.85 7.15 14 13.5 14C13.78 14 14 13.78 14 13.5V11C14 10.72 13.78 10.5 13.5 10.5Z" fill="currentColor"></path>
           </svg>
@@ -916,8 +916,8 @@
         <div class="ccm-card-content">
           <h3 class="ccm-card-title">טלפון</h3>
           <p class="ccm-card-desc">זמינים בימים א׳–ה׳ בין השעות 08:00–18:00. ניתן גם להשאיר הודעה ונחזור אליכם.</p>
-          <a href="tel:[business_phone]" class="ccm-contact-link">
-            <span>[business_phone]</span>
+          <a href="tel:+972527077408" class="ccm-contact-link">
+            <span>+972527077408</span>
             <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="ccm-arrow-icon"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
           </a>
         </div>
@@ -935,8 +935,8 @@
         <div class="ccm-card-content">
           <h3 class="ccm-card-title">דואר אלקטרוני</h3>
           <p class="ccm-card-desc">שלחו לנו פרטים על הפרויקט שלכם ונחזור עם הצעת מחיר ראשונית תוך 24 שעות.</p>
-          <a href="mailto:[business_email]" class="ccm-contact-link">
-            <span>[business_email]</span>
+          <a href="mailto:resheftal1@gmail.com" class="ccm-contact-link">
+            <span>resheftal1@gmail.com</span>
             <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="ccm-arrow-icon"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
           </a>
         </div>
@@ -954,7 +954,7 @@
         <div class="ccm-card-content">
           <h3 class="ccm-card-title">אזור פעילות</h3>
           <p class="ccm-card-desc">רשף פרויקטים פעילה בדרום הארץ ומסביב. אדריכלות, שיפוצים ועיצוב פנים לבית פרטי — מקצה לקצה.</p>
-          <a href="https://maps.google.com/?q=[business_address]" target="_blank" rel="noopener noreferrer" class="ccm-contact-link">
+          <a href="https://maps.google.com/?q=אשקלון" target="_blank" rel="noopener noreferrer" class="ccm-contact-link">
             <span>צפו במפה</span>
             <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="ccm-arrow-icon"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
           </a>
@@ -966,7 +966,7 @@
 
     <!-- WhatsApp quick CTA -->
     <div class="ccm-whatsapp-row">
-      <a href="https://wa.me/[whatsapp_handle]" target="_blank" rel="noopener noreferrer" class="ccm-whatsapp-btn">
+      <a href="#" target="_blank" rel="noopener noreferrer" class="ccm-whatsapp-btn" style="display:none !important;">
         <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
           <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"></path>
           <path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.553 4.116 1.522 5.847L.057 23.882l6.198-1.625A11.933 11.933 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.007-1.374l-.359-.214-3.68.965.982-3.594-.234-.369A9.818 9.818 0 012.182 12C2.182 6.575 6.575 2.182 12 2.182S21.818 6.575 21.818 12 17.425 21.818 12 21.818z"></path>
@@ -1187,7 +1187,7 @@
         <span>השאירו פרטים</span>
         <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
       </a>
-      <a href="tel:[business_phone]" class="contact-closing-section__btn-secondary">
+      <a href="tel:+972527077408" class="contact-closing-section__btn-secondary">
         <i class="fa-solid fa-phone" aria-hidden="true"></i>
         <span>התקשרו עכשיו</span>
       </a>
@@ -1214,7 +1214,7 @@
 </section>
   </main>
   
-  <footer class="site-footer"><div class="footer-top"><div class="footer-container"><div class="footer-grid"><div class="footer-col footer-brand"><div class="footer-logo-wrap"><img src="/assets/logo.webp" alt="רשף פרויקטים" class="logo"></div><p class="footer-tagline">בנייה, שיפוץ ועיצוב פנים ברמה הגבוהה ביותר — מהחזון ועד למפתח.</p><div class="footer-social"><a href="[facebook_handle]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a><a href="[instagram_handle]" aria-label="Instagram"><i class="fab fa-instagram"></i></a><a href="[whatsapp_handle]" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a></div></div><div class="footer-col footer-links-col"><h4 class="footer-heading"><span class="heading-line"></span>ניווט מהיר</h4><ul class="footer-links"><li><a href="/services"><i class="fas fa-chevron-left"></i>שירותים</a></li><li><a href="/about"><i class="fas fa-chevron-left"></i>אודות</a></li><li><a href="/contact"><i class="fas fa-chevron-left"></i>צור קשר</a></li></ul></div><div class="footer-col footer-contact-col"><h4 class="footer-heading"><span class="heading-line"></span>יצירת קשר</h4><ul class="footer-contact"><li><span class="contact-icon"><i class="fas fa-envelope"></i></span><span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span></li><li><span class="contact-icon"><i class="fas fa-phone"></i></span><span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span></li><li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span><span class="contact-text">[business_address]</span></a></li></ul></div><div class="footer-col footer-cta-col"><h4 class="footer-heading"><span class="heading-line"></span>מוכנים להתחיל?</h4><p class="footer-cta-text">נשמח לשמוע על הפרויקט שלכם וליצור יחד משהו יוצא דופן.</p><a href="/contact" class="footer-cta-btn">דברו איתנו</a></div></div></div></div><div class="footer-bottom"><div class="footer-container"><div class="footer-bottom-inner"><p class="footer-copy">© 2026 רשף פרויקטים. כל הזכויות שמורות.</p><div class="footer-legal"><a href="/privacy">מדיניות פרטיות</a><span class="legal-sep"></span><a href="/terms">תנאי שימוש</a><span class="legal-sep"></span><a href="/accessibility">נגישות</a><span class="legal-sep"></span><a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a></div></div></div></div></footer>
+  <footer class="site-footer"><div class="footer-top"><div class="footer-container"><div class="footer-grid"><div class="footer-col footer-brand"><div class="footer-logo-wrap"><img src="/assets/logo.webp" alt="רשף פרויקטים" class="logo"></div><p class="footer-tagline">בנייה, שיפוץ ועיצוב פנים ברמה הגבוהה ביותר — מהחזון ועד למפתח.</p><div class="footer-social"><a href="#" aria-label="Facebook" style="display:none !important;"><i class="fab fa-facebook-f"></i></a><a href="#" aria-label="Instagram" style="display:none !important;"><i class="fab fa-instagram"></i></a><a href="#" aria-label="WhatsApp" style="display:none !important;"><i class="fab fa-whatsapp"></i></a></div></div><div class="footer-col footer-links-col"><h4 class="footer-heading"><span class="heading-line"></span>ניווט מהיר</h4><ul class="footer-links"><li><a href="/services"><i class="fas fa-chevron-left"></i>שירותים</a></li><li><a href="/about"><i class="fas fa-chevron-left"></i>אודות</a></li><li><a href="/contact"><i class="fas fa-chevron-left"></i>צור קשר</a></li></ul></div><div class="footer-col footer-contact-col"><h4 class="footer-heading"><span class="heading-line"></span>יצירת קשר</h4><ul class="footer-contact"><li><span class="contact-icon"><i class="fas fa-envelope"></i></span><span class="contact-text"><a href="mailto:resheftal1@gmail.com">resheftal1@gmail.com</a></span></li><li><span class="contact-icon"><i class="fas fa-phone"></i></span><span class="contact-text"><a href="tel:+972527077408">+972527077408</a></span></li><li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span><span class="contact-text">אשקלון</span></a></li></ul></div><div class="footer-col footer-cta-col"><h4 class="footer-heading"><span class="heading-line"></span>מוכנים להתחיל?</h4><p class="footer-cta-text">נשמח לשמוע על הפרויקט שלכם וליצור יחד משהו יוצא דופן.</p><a href="/contact" class="footer-cta-btn">דברו איתנו</a></div></div></div></div><div class="footer-bottom"><div class="footer-container"><div class="footer-bottom-inner"><p class="footer-copy">© 2026 רשף פרויקטים. כל הזכויות שמורות.</p><div class="footer-legal"><a href="/privacy">מדיניות פרטיות</a><span class="legal-sep"></span><a href="/terms">תנאי שימוש</a><span class="legal-sep"></span><a href="/accessibility">נגישות</a><span class="legal-sep"></span><a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות Zappy</a></div></div></div></div></footer>
   
   <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
