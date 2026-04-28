@@ -1,0 +1,47 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+רשף פרויקטים מתמחה באדריכלות, עיצוב פנים ושיפוצים מקצועיים מקצה לקצה. מהתכנון האדריכלי ועד הנגיעה האחרונה — אנחנו הכתובת שלך לשינוי אמיתי בבית.
+
+### שירותים
+https://example.com/services
+משיפוץ מלא ועבודות גבס ועד צביעת דירה ועיצוב פנים לבית פרטי — רשף פרויקטים מציעה פתרון מקיף תחת קורת גג אחת. גלה את מגוון השירותים שלנו עוד היום.
+
+### אודות
+https://example.com/about
+רשף פרויקטים נולדה מתוך תשוקה לאדריכלות ולעיצוב פנים מקצועי בדרום הארץ. הכירו את הצוות שמשלב ידע הנדסי עם חזון יצירתי כדי להפוך כל פרויקט ליצירת מופת.
+
+### צור קשר
+https://example.com/contact
+רוצה לשפץ, לתכנן או לעצב את הבית שלך? צור קשר עם רשף פרויקטים עוד היום וקבל ייעוץ ראשוני לפרויקט שלך — כי החלל המושלם מתחיל בשיחה אחת.
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
